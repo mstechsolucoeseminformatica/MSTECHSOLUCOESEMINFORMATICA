@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MS TECH - Soluções em Informática</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background: #0a1f44;
+      color: white;
+      padding: 35px 20px;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 320px;
+      width: 90%;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 15px;
+      letter-spacing: 1px;
+      opacity: 0.9;
+    }
+
+    .container {
+      width: 95%;
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .section-title {
+      margin-top: 30px;
+      font-size: 22px;
+      border-left: 6px solid #0a1f44;
+      padding-left: 10px;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .produto {
+      background: white;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+      transition: 0.2s;
+    }
+
+    .produto:hover {
+      transform: scale(1.02);
+    }
+
+    .produto h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #0a1f44;
+    }
+
+    .produto p {
+      font-size: 14px;
+      margin: 10px 0;
+      color: #444;
+    }
+
+    .produto a {
+      display: block;
+      text-align: center;
+      background: #0a1f44;
+      color: white;
+      padding: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .produto a:hover {
+      background: #13346b;
+    }
+
+    .contato {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 20px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+      font-size: 15px;
+    }
+
+    footer {
+      background: #0a1f44;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 14px;
+    }
+
+    /* Botão flutuante WhatsApp */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+      transition: 0.3s;
+      z-index: 999;
+    }
+
+    .whatsapp-float:hover {
+      background: #1ebe5b;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="logo.png" alt="MS TECH Logo">
+  <p>Catálogo de Produtos | Fortaleza - CE</p>
+</header>
+
+<a class="whatsapp-float" target="_blank"
+   href="https://wa.me/5585921615518?text=Olá%20MS%20TECH!%20Gostaria%20de%20um%20orçamento.">
+   📲 WhatsApp
+</a>
+
+<div class="container">
+
+  <h2 class="section-title">📦 Produtos Disponíveis</h2>
+
+  <div class="produtos">
+
+    <div class="produto">
+      <h3>Mouse</h3>
+      <p>Mouse com fio e sem fio, modelos gamer e escritório.</p>
+      <a target="_blank" href="https://wa.me/5585921615518?text=Olá%20MS%20TECH!%20Quero%20orçamento%20de%20MOUSE.">Solicitar Orçamento</a>
+    </div>
+
+    <div class="produto">
+      <h3>Teclado</h3>
+      <p>Teclados comuns, mecânicos e modelos para notebook.</p>
+      <a target="_blank" href="https://wa.me/5585921615518?text=Olá%20MS%20TECH!%20Quero%20orçamento%20de%20TECLADO.">Solicitar Orçamento</a>
+    </div>
+
+    <div class="produto">
+      <h3>Cooler</h3>
+      <p>Coolers para gabinete, CPU e resfriamento adicional.</p>
+      <a target="_blank" href="https://wa.me/5585921615518?text=Olá%20MS%20TECH!%20Quero%20orçamento%20de%20COOLER.">Solicitar Orçamento</a>
+    </div>
+
+    <div class="produto">
+      <h3>SSD SATA</h3>
+      <p>SSD SATA para upgrade de PC e notebook (120GB, 240GB, 480GB etc.).</p>
+      <a target="_blank" href="https://wa.me/5585921615518?text=Olá%20MS%20TECH!%20Quero%20orçamento%20de%20SSD%20SATA.">Solicitar Orçamento</a>
+    </div>
+
+    <div class="produto">
+      <h3>SSD NVMe</h3>
+      <p>SSD NVMe de alta performance para computadores modernos.</p>
+      <a target="_blank" href="https://wa.me/5585921615518?text=Olá%20MS%20TECH!%20Quero%20orçamento%20de%20SSD%20NVME.">Solicitar Orçamento</a>
+    </div>
+
+    <div class="produto">
+      <h3>Fonte</h3>
+      <p>Fontes reais e certificadas para PC, gamer e escritório.</p>
+      <a target="_blank" href="https://wa.me/5585921615518?text=Olá%20MS%20TECH!%20Quero%20orçamento%20de%20FONTE.">Solicitar Orçamento</a>
+    </div>
+
+    <div class="produto">
+      <h3>Carregador Notebook</h3>
+      <p>Carregadores originais e compatíveis para diversas marcas.</p>
+      <a target="_blank" href="https://wa.me/5585921615518?text=Olá%20MS%20TECH!%20Quero%20orçamento%20de%20CARREGADOR%20PARA%20NOTEBOOK.">Solicitar Orçamento</a>
+    </div>
+
+    <div class="produto">
+      <h3>Microventilador</h3>
+      <p>Microventiladores para notebooks e manutenção interna.</p>
+      <a target="_blank" href="https://wa.me/5585921615518?text=Olá%20MS%20TECH!%20Quero%20orçamento%20de%20MICROVENTILADOR.">Solicitar Orçamento</a>
+    </div>
+
+    <div class="produto">
+      <h3>Memória RAM</h3>
+      <p>Memórias DDR3, DDR4 e DDR5 para PCs e notebooks.</p>
+      <a target="_blank" href="https://wa.me/5585921615518?text=Olá%20MS%20TECH!%20Quero%20orçamento%20de%20MEMÓRIA%20RAM.">Solicitar Orçamento</a>
+    </div>
+
+    <div class="produto">
+      <h3>Outros Acessórios</h3>
+      <p>Cabos, adaptadores, pendrives, HD externo e periféricos em geral.</p>
+      <a target="_blank" href="https://wa.me/5585921615518?text=Olá%20MS%20TECH!%20Quero%20orçamento%20de%20ACESSÓRIOS%20DE%20INFORMÁTICA.">Solicitar Orçamento</a>
+    </div>
+
+  </div>
+
+  <h2 class="section-title">📞 Contato</h2>
+
+  <div class="contato">
+    <p><b>📍 Cidade:</b> Fortaleza - CE</p>
+    <p><b>📧 Email:</b> mstechsolucoeseminformatica@gmail.com</p>
+    <p><b>📲 WhatsApp:</b> (85) 92161-5518</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 - MS TECH - Soluções em Informática</p>
+</footer>
+
+</body>
+</html>
